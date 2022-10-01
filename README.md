@@ -1,50 +1,43 @@
-I'm stealing this to make a meme dice for my D&D game
+# Orksork's Dice so Nice Nice Dice
+Sometimes my own genius astounds me. Here are some super cool dice to use that your friends will love.
 
-================
-# Lordu's Custom Dice for Dice So Nice!
-![preview](pics/lcdcover.png?raw=true)
+![dice](pics/Dice.png)
+
+Also I'm forking from LorduFreeman's ['Lordu's Custom Dice for Dice So Nice!'](https://github.com/LorduFreeman/foundry-lordudice) to figure out how to make the dice so I'm just gonna use his README formatting too. Bully for me.
 
 ## About/How to use
-This module can only be used in conjunction with **Dice So Nice! (minimum version required 3.1.0)** and adds **two new systems**, one containing custom dice labelling for dark/horror-type games (named Dark Deeds) and a second system (named Forbidden Knowledge) which simply contains all other custom styles using new fonts. 
-The fonts, textures and colorsets of this module are added automatically to the selection menu of DsN and can be used to change other DsN styles as well. They can easily be recognized by the "LCD" label in front of the new systems (Forbidden Knowledge and Dark Deeds) and the header of the themes.
-Try changing the font or texture of one of your core DsN favourites and see what happens!
-
-I plan to release more themes with future updates of this module.
+This module can only be used in conjunction with **Dice So Nice! (minimum version required 3.1.0)** and adds some dice. You can find them in the Dice So Nice setting if you look.
 
 ### How to use and combine styles
-Match one of my system dice presets (either LCD - Forbidden Knowledge or LCD - Dark Deeds) with their respective Themes, for example the Dark Deeds sytem and the Forgotten Pact theme:
-
-![preview](pics/fp.png?raw=true)
-
-Or create your own styles and use the additional fonts and textures provided with this module. An example based on the DsN Necrotic theme with the Dark Ooze texture and Eater font:
-
-![preview](pics/mix.png?raw=true)
+TODO: Forget to do this for 5 years.
+![record this](pics/RECORDER_MEME1.png?raw=true)
 
 ## Installation
-Use the integrated module manager in Foundry.
+Use the integrated module manager in Foundry once it's there. If i'm too cool them still, you can manually use the manifest file URL below:
+
+```
+https://raw.githubusercontent.com/Orksork/foundry-emojidice/main/module.json
+```
 
 ## Visual Previews
-A few of the included styles can be seen here (there are more than just those!). They look even better in action.
-![preview](pics/oozeset.png?raw=true)
-![preview](pics/saviourset.png?raw=true)
-![preview](pics/saviourbunch.png?raw=true)
-![preview](pics/ddset.png?raw=true)
-![preview](pics/ddbunch.png?raw=true)
-![preview](pics/vinesbunch.png?raw=true)
+[fine then keep your secrets.jpg](pics/ART.png?raw=true)
 
 ## Feedback
-For feedback just write me a message on Discord (LorduFreeman#8747). For issues open an issue here in github or write me a message.
+For feedback write a letter and put it under your pillow. My servents will copy it through the astral plane and I'll read it.
+For issues, open an issue here on Github.
 
 ## Credits
-Dice Textures made from textures by https://texturefabrik.com/ with permission. Thanks! Check out their awesome textures.
+The images here on the README are created by Orksork. With licensing permission given by Orksork.
 
-Made with a lot of help from the DsN-Devs Simone and JDW, <3. Dice So Nice can be found over here: https://gitlab.com/riccisi/foundryvtt-dice-so-nice
+Made by ripping off Lordudice's dice pack. They're super chill and don't know I've done this at all. https://github.com/LorduFreeman/foundry-lordudice
 
 ## License
 This work is licensed under the MIT License: https://mit-license.org
 This work is licensed under Foundry Virtual Tabletop [EULA - Limited License Agreement for module development](https://foundryvtt.com/article/license/).
 
-## To do:
-- Add Changelog
-- Webp compression
-
+## TODO
+Secret random 'fun'
+More stuff
+Fonts?
+Models?
+Texutres?

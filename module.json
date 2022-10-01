@@ -26,11 +26,9 @@
   
   ],
   "scripts": [
-	"scripts/darkdeeds.js", "scripts/forbiddenknowledge.js",
-  "scripts/deleteabove.js"
+    "scripts/deleteabove.js"
   ],
   "styles": [
-	"dicestyle.css"
   ],
   "languages": [
 
