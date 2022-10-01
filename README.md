@@ -1,3 +1,6 @@
+I'm stealing this to make a meme dice for my D&D game
+
+================
 # Lordu's Custom Dice for Dice So Nice!
 ![preview](pics/lcdcover.png?raw=true)
 

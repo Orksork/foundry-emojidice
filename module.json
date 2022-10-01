@@ -1,7 +1,7 @@
 {
-  "name": "lordudice",
-  "title": "Lordu's Custom Dice for Dice So Nice",
-  "description": "Additional Dice presets and themes for Dice So Nice. Requires Dice So Nice module to work.",
+  "name": "orksorkdice",
+  "title": "Orksork hates his fellow adventurers dice pack",
+  "description": "Orksork try to throw Tsuni into fountain. Fountain break. Orksork blame these dice.",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
@@ -9,9 +9,8 @@
   "compatibleCoreVersion": "9.269",
   "authors": [
     {
-		"name":"LorduFreeman",
-		"url": "https://discord.com/users/282511548595830814",
-		"discord": "LorduFreeman#8747"
+		"name":"Orksork",
+		"url": "https://letmegooglethat.com/?q=astolfo+monster+can&l=1"
     }
   ],
   "dependencies": [
@@ -27,7 +26,8 @@
   
   ],
   "scripts": [
-	"scripts/darkdeeds.js", "scripts/forbiddenknowledge.js"
+	"scripts/darkdeeds.js", "scripts/forbiddenknowledge.js",
+  "scripts/deleteabove.js"
   ],
   "styles": [
 	"dicestyle.css"
@@ -38,26 +38,26 @@
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",
-  "readme": "https://raw.githubusercontent.com/LorduFreeman/foundry-lordudice/main/README.md",
+  "readme": "https://raw.githubusercontent.com/Orksork/foundry-emojidice/main/README.md",
   "media": [
   {
     "type": "cover",
-    "url": "https://raw.githubusercontent.com/LorduFreeman/foundry-lordudice/main/pics/lcdcover.png",
-    "caption": "Lordu's Custom Dice for Dice So Nice"
+    "url": "https://raw.githubusercontent.com/Orksork/foundry-emojidice/main/pics/token_19.png",
+    "caption": "Howdy Pardner"
   },
     {
       "type": "icon",
-      "url": "https://avatars.githubusercontent.com/u/72170114?s=400&u=e1d4d6fa8f4622a71c23d7e3f5f24d45967ceed3&v=4"
+      "url": "https://avatars.githubusercontent.com/u/30049372?s=400&u=a6ab74338ec46732756a982f8ee07107558ce1ff&v=4"
     },
   {
     "type": "screenshot",
-    "url": "https://raw.githubusercontent.com/LorduFreeman/foundry-lordudice/main/pics/saviourset.png",
-    "caption": "Saviour Dice"
+    "url": "https://raw.githubusercontent.com/Orksork/foundry-emojidice/main/pics/token_4.png",
+    "caption": "Ding Dong Ding Ding"
   },
   {
     "type": "screenshot",
-    "url": "https://raw.githubusercontent.com/LorduFreeman/foundry-lordudice/main/pics/ddset.png",
-    "caption": "Dark Copper Dice"
+    "url": "https://raw.githubusercontent.com/Orksork/foundry-emojidice/main/pics/token_9.png",
+    "caption": "Uhhhhhhh"
   }
  ]
 }
