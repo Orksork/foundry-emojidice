@@ -1,6 +1,6 @@
 
-const jarJar = "modules/orksorkdice/models/darth_jar_jar_star_wars_custom_model.glb"
-const pumpkins = "modules/orksorkdice/models/pumpkin.glb"
+const jarJar = "modules/orksork-emoji-dice/models/darth_jar_jar_star_wars_custom_model.glb"
+const pumpkins = "modules/orksork-emoji-dice/models/pumpkin.glb"
 
 Hooks.on('diceSoNiceReady', (dice3d) => {
     dice3d.addSystem({ id: "20s", name: "ORK - Oops! All 20s" }, "default");
