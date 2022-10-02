@@ -2,21 +2,9 @@
 
 function readTextFile(file)
 {
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", file, false);
-    var allText = ""
-    rawFile.onreadystatechange = function ()
-    {
-        if(rawFile.readyState === 4)
-        {
-            if(rawFile.status === 200 || rawFile.status == 0)
-            {
-                allText = rawFile.responseText;
-            }
-        }
-    }
-    rawFile.send(null);
-    return allText;
+  return fetch(file)
+          .then(response => response.text())
+          .then(text => {return text.split('\n')})
 }
 
 
@@ -85,9 +73,8 @@ const addSystem = (dice3d, systemId, systemName, emojiArray) => {
   
      dice3d.addDicePreset({
        type: "df",
-            labels: getRandomEmoji(3, emojiArray),
+       labels: getRandomEmoji(3, emojiArray),
        system: systemId,
-       fontScale: 1.3
      },"df");
      
      dice3d.addDicePreset({

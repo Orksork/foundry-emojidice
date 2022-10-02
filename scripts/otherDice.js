@@ -140,7 +140,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         },"d4");
     
         dice3d.addDicePreset({
-            type: "pumpkin",
+            type: "d6",
             modelFile: pumpkins,
             system: "pumpkin"
         },"d6");
