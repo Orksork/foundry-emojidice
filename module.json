@@ -24,9 +24,10 @@
     
   ],
   "esmodules": [
-    "scripts/emojiDice.js"
+    
   ],
   "scripts": [
+    "scripts/emojiDice.js",
     "scripts/otherDice.js"
   ],
   "styles": [
