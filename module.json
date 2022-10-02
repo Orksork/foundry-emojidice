@@ -1,16 +1,17 @@
 {
   "name": "orksorkdice",
-  "title": "Orksork hates his fellow adventurers dice pack",
-  "description": "Orksork try to throw Tsuni into fountain. Fountain break. Orksork blame these dice.",
+  "title": "Orksork's Emoji Dice So Nice Nice Dice",
+  "description": "Some extra regular and not distracting dice for use with Dice So Nice. Requires Dice So Nice to work.",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "9.269",
+  "compatibleCoreVersion": "10.286",
   "authors": [
     {
 		"name":"Orksork",
-		"url": "https://letmegooglethat.com/?q=astolfo+monster+can&l=1"
+		"url": "https://discord.com/users/113320642174033920",
+		"discord": "Orksork#8008"
     }
   ],
   "dependencies": [
@@ -26,7 +27,8 @@
   
   ],
   "scripts": [
-    "scripts/deleteabove.js"
+    "scripts/deleteabove.js",
+    "scripts/otherDice.js"
   ],
   "styles": [
   ],
@@ -35,27 +37,6 @@
   ],
   "url": "https://github.com/Orksork/foundry-emojidice",
   "manifest": "https://github.com/Orksork/foundry-emojidice/releases/latest/download/module.json",
-  "download": "https://github.com/Orksork/foundry-emojidice/releases/download/6.9/module.zip",
-  "readme": "https://raw.githubusercontent.com/Orksork/foundry-emojidice/main/README.md",
-  "media": [
-  {
-    "type": "cover",
-    "url": "https://raw.githubusercontent.com/Orksork/foundry-emojidice/main/pics/token_19.png",
-    "caption": "Howdy Pardner"
-  },
-    {
-      "type": "icon",
-      "url": "https://avatars.githubusercontent.com/u/30049372?s=400&u=a6ab74338ec46732756a982f8ee07107558ce1ff&v=4"
-    },
-  {
-    "type": "screenshot",
-    "url": "https://raw.githubusercontent.com/Orksork/foundry-emojidice/main/pics/token_4.png",
-    "caption": "Ding Dong Ding Ding"
-  },
-  {
-    "type": "screenshot",
-    "url": "https://raw.githubusercontent.com/Orksork/foundry-emojidice/main/pics/token_9.png",
-    "caption": "Uhhhhhhh"
-  }
- ]
+  "download": "https://github.com/Orksork/foundry-emojidice/releases/download/1.0/module.zip",
+  "readme": "https://raw.githubusercontent.com/Orksork/foundry-emojidice/main/README.md"
 }
