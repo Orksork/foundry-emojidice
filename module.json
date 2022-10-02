@@ -27,7 +27,7 @@
   
   ],
   "scripts": [
-    "scripts/deleteabove.js",
+    "scripts/emojiDice.js",
     "scripts/otherDice.js"
   ],
   "styles": [
