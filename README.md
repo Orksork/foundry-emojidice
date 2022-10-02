@@ -3,6 +3,8 @@ Sometimes my own genius astounds me. Here are some super cool dice to use that y
 
 ![dice](pics/EmojiDice.png)
 
+**NOTE: These dice are purely cosmetic. Emojis, and even the 'every face is 20' die are still regular die with 1-n values. They just look different.**
+
 Also I'm forking from LorduFreeman's ['Lordu's Custom Dice for Dice So Nice!'](https://github.com/LorduFreeman/foundry-lordudice) to figure out how to make the dice so I'm just gonna use his README formatting too. Bully for me.
 
 ## About/How to use
@@ -10,19 +12,22 @@ This module can only be used in conjunction with **Dice So Nice! (minimum versio
 
 ### How to use and combine styles
 TODO: Forget to do this for 5 years.
+
 ATM I have no custom styles, so combine these face sets with whatever colors and textures you want.
 
 ![record this](pics/RECORDER_MEME1.png?raw=true)
 
+^Picture of me after I finally remember to fill this section out.
+
 ## Installation
-Use the integrated module manager in Foundry once it's there. If i'm too cool them still, you can manually use the manifest file URL below:
+Use the integrated module manager in Foundry once it's there. If i'm too cool for them still, you can manually use the manifest file URL below:
 
 ```
 https://raw.githubusercontent.com/Orksork/foundry-emojidice/main/module.json
 ```
 
 ## Visual Previews
-Halloween!
+### Halloween!
 
 ![spooky scary skeletons](pics/spooks.png)
 
@@ -33,6 +38,8 @@ Oops! All 20s!
 Who needs dice? Throw pumpkins!
 
 ![Quick grab your keys!](pics/whatpumpkin.png)
+
+![WHAT? FIVE STEMS AGAIN? BULLS**T](pics/pumpkinroll.png)
 
 And some *secrets*!
 
