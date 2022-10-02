@@ -1,15 +1,10 @@
 import {EMOJIS} from '../data/AllEmoji.js';
+import {HALLOWEEN} from '../data/sets.js';
+import {CARDS} from '../data/sets.js';
+import {MAJONG} from '../data/sets.js';
+import {ANIMALS} from '../data/sets.js';
 
 const specialSet = (Math.random() * 100001);
-
-//Easier to store these more than once in their collections than try to mess with searching/sorting them through code.
-const halloween = ['👁️','😨','🎃','☠️','😱','💀','👹','👺','👻','👽','🤖','🧟','🦇','🕷️','🔮','🕯️','🗡️','⛓️','🩸','⚰️'];
-
-const cards = ['🂡','🂱','🃁','🃑','🂢','🂲','🃂','🃒','🂣','🂳','🃃','🃓','🂤','🂴','🃄','🃔','🂥','🂵','🃅','🃕','🂦','🂶','🃆','🃖','🂧','🂷','🃇','🃗','🂨','🂸','🃈','🃘','🂩','🂹','🃉','🃙','🂪','🂺','🃊','🃚','🂫','🂻','🃋','🃛','🂬','🂼','🃌','🃜','🂭','🂽','🃍','🃝','🂮','🂾','🃎','🃞'];
-
-const majong = ['🀀','🀁','🀂','🀃','🀄','🀅','🀆','🀇','🀈','🀉','🀊','🀋','🀌','🀍','🀎','🀏','🀐','🀑','🀒','🀓','🀔','🀕','🀖','🀗','🀘','🀙','🀚','🀛','🀜','🀝','🀞','🀟','🀠','🀡','🀢','🀣','🀤','🀥','🀦','🀧','🀨','🀩','🀪','🀫'];
-
-const animals = ['🐈‍⬛', '🐀','🐁','🐂','🐃','🐄','🐅','🐆','🐇','🐈','🐉','🐊','🐋','🐌','🐍','🐎','🐏','🐐','🐑','🐒','🐓','🐔','🐕','🐖','🐗','🐘','🐙','🐚','🐛','🐜','🐝','🐞','🐟','🐠','🐡','🐢','🐣','🐤','🐥','🐦','🐧','🐨','🐩','🐪','🐫','🐬','🐭','🐮','🐯','🐰','🐱','🐲','🐳','🐴','🐵','🐶','🐷','🐸','🐹','🐺','🐻','🐼','🐽','🐾','🐿'];
 
 const getRandomEmoji = (num, emojiArray) => {
 
@@ -93,8 +88,8 @@ const addSystem = (dice3d, systemId, systemName, emojiArray) => {
 
 Hooks.on('diceSoNiceReady', (dice3d) => {
     addSystem(dice3d, "Emojus", "ORK - 🤘🏻", EMOJIS);
-    addSystem(dice3d, "Halloween", "ORK - 🎃 Spooky Emojis ", halloween);
-    addSystem(dice3d, "Majong", "ORK - 🀄 Let's Play Majong", majong);
-    addSystem(dice3d, "DeckOCards", "ORK - 🃞 Poker anyone?", cards);
-    addSystem(dice3d, "Animals", "ORK - 🐈 Chaos approved", animals);
+    addSystem(dice3d, "Halloween", "ORK - 🎃 Spooky Emojis ", HALLOWEEN);
+    addSystem(dice3d, "Majong", "ORK - 🀄 Let's Play Majong", MAJONG);
+    addSystem(dice3d, "DeckOCards", "ORK - 🃞 Poker anyone?", CARDS);
+    addSystem(dice3d, "Animals", "ORK - 🐈 Chaos approved", ANIMALS);
   });
