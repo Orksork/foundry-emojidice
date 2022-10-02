@@ -1,4 +1,7 @@
 
+const jarJar = "modules/orksorkdice/models/darth_jar_jar_star_wars_custom_model.glb"
+const pumpkins = "modules/orksorkdice/models/pumpkin.glb"
+
 Hooks.on('diceSoNiceReady', (dice3d) => {
     dice3d.addSystem({ id: "20s", name: "ORK - Oops! All 20s" }, "default");
 
@@ -64,55 +67,55 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 
         dice3d.addDicePreset({
             type: "d20",
-            modelFile: "modules/orksorkdice/darth_jar_jar_star_wars_custom_model.glb",
+            modelFile: jarJar,
             system: "pumpkin"
         },"d20");
 
         dice3d.addDicePreset({
             type: "d2",
-            modelFile: "modules/orksorkdice/darth_jar_jar_star_wars_custom_model.glb",
+            modelFile: jarJar,
             system: "pumpkin"
         });
 
         dice3d.addDicePreset({
             type: "d4",
-            modelFile: "modules/orksorkdice/darth_jar_jar_star_wars_custom_model.glb",
+            modelFile: jarJar,
             system: "pumpkin"
         },"d4");
 
         dice3d.addDicePreset({
             type: "pumpkin",
-            modelFile: "modules/orksorkdice/darth_jar_jar_star_wars_custom_model.glb",
+            modelFile: jarJar,
             system: "pumpkin"
         },"d6");
 
         dice3d.addDicePreset({
             type: "df",
-            modelFile: "modules/orksorkdice/darth_jar_jar_star_wars_custom_model.glb",
+            modelFile: jarJar,
             system: "pumpkin",
         },"df");
 
         dice3d.addDicePreset({
             type: "d8",
-            modelFile: "modules/orksorkdice/darth_jar_jar_star_wars_custom_model.glb",
+            modelFile: jarJar,
             system: "pumpkin"
         },"d8");
 
         dice3d.addDicePreset({
             type: "d10",
-            modelFile: "modules/orksorkdice/darth_jar_jar_star_wars_custom_model.glb",
+            modelFile: jarJar,
             system: "pumpkin" 
         },"d10");
 
         dice3d.addDicePreset({
             type: "d12",
-            modelFile: "modules/orksorkdice/darth_jar_jar_star_wars_custom_model.glb",
+            modelFile: jarJar,
             system: "pumpkin"
         },"d12");
 
         dice3d.addDicePreset({
             type: "d100",
-            modelFile: "modules/orksorkdice/darth_jar_jar_star_wars_custom_model.glb",
+            modelFile: jarJar,
             system: "pumpkin"
         },"d10");
     } else {
@@ -120,55 +123,55 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 
         dice3d.addDicePreset({
             type: "d20",
-            modelFile: "modules/orksorkdice/pumpkin.glb",
+            modelFile: pumpkins,
             system: "pumpkin"
         },"d20");
     
         dice3d.addDicePreset({
             type: "d2",
-            modelFile: "modules/orksorkdice/pumpkin.glb",
+            modelFile: pumpkins,
             system: "pumpkin"
         });
     
         dice3d.addDicePreset({
             type: "d4",
-            modelFile: "modules/orksorkdice/pumpkin.glb",
+            modelFile: pumpkins,
             system: "pumpkin"
         },"d4");
     
         dice3d.addDicePreset({
             type: "pumpkin",
-            modelFile: "modules/orksorkdice/pumpkin.glb",
+            modelFile: pumpkins,
             system: "pumpkin"
         },"d6");
     
         dice3d.addDicePreset({
             type: "df",
-            modelFile: "modules/orksorkdice/pumpkin.glb",
+            modelFile: pumpkins,
             system: "pumpkin",
         },"df");
     
         dice3d.addDicePreset({
             type: "d8",
-            modelFile: "modules/orksorkdice/pumpkin.glb",
+            modelFile: pumpkins,
             system: "pumpkin"
         },"d8");
     
         dice3d.addDicePreset({
             type: "d10",
-            modelFile: "modules/orksorkdice/pumpkin.glb",
+            modelFile: pumpkins,
             system: "pumpkin" 
         },"d10");
     
         dice3d.addDicePreset({
             type: "d12",
-            modelFile: "modules/orksorkdice/pumpkin.glb",
+            modelFile: pumpkins,
             system: "pumpkin"
         },"d12");
     
         dice3d.addDicePreset({
             type: "d100",
-            modelFile: "modules/orksorkdice/pumpkin.glb",
+            modelFile: pumpkins,
             system: "pumpkin"
         },"d10");
     }

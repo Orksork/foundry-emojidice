@@ -1,20 +1,29 @@
 //Any dice that use the full emoji list shouild be here.
 
-const {readFileSync, promises: fsPromises} = require('fs');
-
-async function asyncReadFile(filename) {
-  try {
-    const contents = await fsPromises.readFile(filename, 'utf-8');
-    return contents.split(/\r?\n/);
-  } catch (err) {
-    console.log(err);
-  }
+function readTextFile(file)
+{
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    var allText = ""
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                allText = rawFile.responseText;
+            }
+        }
+    }
+    rawFile.send(null);
+    return allText;
 }
+
 
 const specialSet = (Math.random() * 100001);
 
 //There's over 2k of these bad boys. Lets not fill this file too bad
-const emojis = asyncReadFile("./data/AllEmoji.txt");
+const emojis = readTextFile("file://../data/AllEmoji.txt");
 
 //Easier to store these more than once in their collections than try to mess with searching/sorting them through code.
 const halloween = ['👁️','😨','🎃','☠️','😱','💀','👹','👺','👻','👽','🤖','🧟','🦇','🕷️','🔮','🕯️','🗡️','⛓️','🩸','⚰️'];
