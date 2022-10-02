@@ -1,4 +1,4 @@
-import {EMOJIS} from '../data/AllEmoji.js';
+import {EMOJIS} from './AllEmoji.js';
 
 const specialSet = (Math.random() * 100001);
 
