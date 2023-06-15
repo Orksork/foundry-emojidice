@@ -60,6 +60,63 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         system: "20s"
     },"d10");
 
+    dice3d.addSystem({ id: "oofs", name: "ORK - Oofs! All 1s" }, "default");
+
+    dice3d.addDicePreset({
+        type: "d20",
+        labels: Array(20).fill("1"),
+        system: "oofs"
+    },"d20");
+
+    dice3d.addDicePreset({
+        type: "d2",
+        labels: Array(2).fill("1"),
+        system: "oofs"
+    });
+
+    dice3d.addDicePreset({
+        type: "d4",
+        labels: Array(4).fill("1"),
+        system: "oofs"
+    },"d4");
+
+    dice3d.addDicePreset({
+        type: "d6",
+        labels: Array(6).fill("1"),
+        system: "oofs"
+    },"d6");
+
+    dice3d.addDicePreset({
+        type: "df",
+        labels: Array(3).fill("1"),
+        system: "oofs",
+        fontScale: 1.3
+    },"df");
+
+    dice3d.addDicePreset({
+        type: "d8",
+        labels: Array(8).fill("1"),
+        system: "oofs"
+    },"d8");
+
+    dice3d.addDicePreset({
+        type: "d10",
+        labels: Array(10).fill("20"),
+        system: "oofs" 
+    },"d10");
+
+    dice3d.addDicePreset({
+        type: "d12",
+        labels: Array(12).fill("1"),
+        system: "oofs"
+    },"d12");
+
+    dice3d.addDicePreset({
+        type: "d100",
+        labels: Array(10).fill("1"),
+        system: "oofs"
+    },"d10");
+
 
     const d = new Date();
     if(d.getMonth() == 4 && d.getDay() <= 7) {
